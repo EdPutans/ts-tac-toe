@@ -49,7 +49,7 @@ function setState(newState: State): void {
   render()
 }
 
-function restart() {
+function restart(): void {
   setState(initialState)
 }
 
